@@ -15,7 +15,7 @@ struct ContentView: View {
                 .font(.largeTitle)
                 .fontWeight(.semibold)
             
-            Image("5")
+            Image(imageName)
                 .resizable()
                 .scaledToFit()
                 .frame(width: 150, height: 150)
@@ -57,7 +57,7 @@ struct ContentView: View {
                 .background(Color.black)
                 .padding()
                 .onTapGesture {
-                    imageName="2"
+                    imageName=("2")
                 }
             
         }
